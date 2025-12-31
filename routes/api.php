@@ -9,3 +9,5 @@ Route::get('bpjs/monitoring/kunjungan/{tglMonitor}/{jenisLayanan}', [BpjsControl
 Route::get('bpjs/rencanakontrol/{tglAwal}/{tglAkhir}/{filter}', [BpjsController::class, 'rencanaKontrolDetail']);
 Route::get('bpjs/rencanakontrol/noKP/{bulan}/{tahun}/{noKP}/{filter}', [BpjsController::class, 'rencanaKontrolNoKPDetail']);
 Route::post('bpjs/report', [BpjsController::class, 'antreanReport']);
+
+// tes
